@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*Start of Navbar*/
+.navbar{
+    background-color: #0b9686;
+    color: #f8fcfb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar .brand img{
+    opacity: .6;
+    width: 7rem;
+    height: 2.5rem;
+    object-fit: cover;
+}
+
+.navbar .items ul{
+    list-style: none;
+}
+
+.navbar .items ul li{
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar .items ul .active{
+    background-color: #0d887a;
+    padding: .3rem 1rem;
+    border-bottom: .2rem #097c6f solid;
+    border-radius: .2rem;
+}
+
+.navbar .items ul li a{
+    text-decoration: none;
+    color: #f8fcfb;
+}
+
+.navbar .contact-info h6{
+    font-weight: normal;
+    text-align: end;
+}
+
+.navbar .contact-info h5{
+    font-weight: bolder;
+    font-size: large;
+}
+/*End of Navbar*/
